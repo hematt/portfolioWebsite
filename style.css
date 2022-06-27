@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+}
+
+.profileImg {
+  width: 150px;
+  display: block;
+  border-radius: 10px;
+}
+
+.header__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.navMenu {
+  display: flex;
+  gap: 20px;
+}
+
+.myIntro {
+  padding: 30px 0;
+}
